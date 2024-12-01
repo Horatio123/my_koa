@@ -1,0 +1,10 @@
+{
+    "name":"xxx",
+    "version": "ooo",
+    "main": "index.ts",
+    "scripts":{
+        "dev": "ts-node ./src/index.ts --env-local",
+        "start": "node dist/index.js --env=prod",
+        "build": "rm -rf ./dist && tsc"
+    }
+}
